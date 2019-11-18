@@ -15,6 +15,8 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+gem 'fillable-pdf'
+
 group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'spring-commands-rspec'
