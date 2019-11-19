@@ -9,9 +9,15 @@ footer{
   a{
     color: rgba(0,0,0,0.5);
     transition: all 1s ease;
-  }
+    &:hover{
+      text-decoration: none;
 
-  a:hover{
-     color: rgba(0,0,0,1);
+      i.fa-github{
+         color: #000;
+      }
+      i.fa-product-hunt{
+         color: #DA542F;
+      }
+    }
   }
 }
