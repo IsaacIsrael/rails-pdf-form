@@ -1,1 +1,18 @@
 // Specific CSS for your home-page
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ddd;
+
+  .card{
+    border-radius: 4px;
+    box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.58);
+
+    .card-text{
+      font-weight: 200;
+      color: #999;
+    }
+  }
+}
