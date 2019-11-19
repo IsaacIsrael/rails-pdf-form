@@ -6,7 +6,11 @@ class FillPdfForm
     File.delete(context.output_file) if File.exist?(context.output_file)
 
     pdftk = PdfForms.new
-    pdftk.fill_form input_file, context.output_file, context.values, flatten: true
+    pdftk.fill_form(
+      context.input_file,
+      context.output_file,
+      context.values,
+      flatten: true
+    )
   end
 end
-
