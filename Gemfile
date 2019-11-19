@@ -15,6 +15,9 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+gem 'interactor', '~> 3.0'
+gem 'interactor-rails'
+
 gem 'fillable-pdf'
 
 group :development do
