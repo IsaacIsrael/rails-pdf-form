@@ -7,7 +7,7 @@ RSpec.describe FillFakeData, type: :interactor do
       expect(context).to be_a_success
     end
     it 'return outputs for all fields' do
-      expect(context.outputs.count).to eq 454
+      expect(context.values.count).to eq 454
     end
   end
 end
