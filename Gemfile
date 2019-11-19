@@ -18,7 +18,7 @@ gem 'webpacker'
 gem 'interactor', '~> 3.0'
 gem 'interactor-rails'
 
-gem 'fillable-pdf'
+gem 'pdf-forms'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
