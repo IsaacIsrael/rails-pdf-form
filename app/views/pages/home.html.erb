@@ -1,2 +1,9 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<section>
+  <div class="card text-center">
+    <div class="card-body">
+      <h4 class="card-title">Filled Form</h4>
+      <p class="card-text" >Dowload the filled form with dump data</p>
+      <%= link_to 'Download', pages_download_pdf_path, class: "btn btn-primary btn-block" %>
+    </div>
+  </div>
+</section>
