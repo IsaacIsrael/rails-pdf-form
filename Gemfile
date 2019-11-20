@@ -19,6 +19,7 @@ gem 'interactor', '~> 3.0'
 gem 'interactor-rails'
 
 gem 'pdf-forms'
+gem 'faker'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
